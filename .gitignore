@@ -6,3 +6,4 @@ protected/data/*.db
 vendor
 commom/config/bootstrap.php
 composer.lock
+
