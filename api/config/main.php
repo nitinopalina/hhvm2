@@ -11,10 +11,13 @@ return [
     'basePath' => dirname(__DIR__),
     'controllerNamespace' => 'api\controllers',
     'bootstrap' => ['log'],
-    'modules' => [
+    /*'modules' => [
         'v2' => [
             'class' => 'api\modules\v2\Module',
         ],
+    ],*/
+    'modules' => [
+       
     ],
     'components' => [
         'request' => [
@@ -41,12 +44,14 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
+        /*
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => true,
             'rules' => [
             ],
         ],
+        */
     ],
     'params' => $params,
 ];
