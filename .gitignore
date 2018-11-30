@@ -7,4 +7,4 @@ vendor
 commom/config/bootstrap.php
 composer.lock
 frontend/web/assets/
-
+/nbproject
