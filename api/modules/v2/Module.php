@@ -13,7 +13,7 @@ class Module extends \yii\base\Module
     public $controllerNamespace = 'api\modules\v2\controllers';
 
     /**
-     * {@inheritdoc}
+     * {@inheritdoc} 
      */
     public function init()
     {
