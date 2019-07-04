@@ -4,6 +4,6 @@ protected/runtime/*
 !protected/runtime/.gitignore
 protected/data/*.db
 vendor
-commom/config/bootstrap.php
 composer.lock
-
+frontend/web/assets/
+/nbproject
